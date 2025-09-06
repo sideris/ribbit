@@ -14,27 +14,27 @@
   </a>
 </div>
 
-## What is Rivet?
+Forked and modified from Rivet (MIT licensed) by ParadigmXYZ. Original license retained.
 
-Rivet is a developer Wallet & DevTools for Anvil (akin to [Browser DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools#how_to_open_the_devtools_in_your_browser) or [React DevTools](https://react.dev/learn/react-developer-tools)). It is a browser extension that enables developers to inspect, debug, modify, and manipulate the state of Ethereum: accounts, blocks, contracts & the node itself. Rivet is also compatible with any production dApp, meaning you can simulate any type of action from either an Account attached on the Anvil instance, or by "impersonating" another Account on the network.
+## What is Ribbit?
 
-By integrating [EIP-6963: Multi Injected Provider Discovery](https://eips.ethereum.org/EIPS/eip-6963), Rivet is designed to be used alongside and with other consumer browser wallets like MetaMask or Rainbow to provide more engrained developer tooling and workflows for Ethereum.
+Ribbit is a developer Wallet & DevTools for Anvil (akin to [Browser DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools#how_to_open_the_devtools_in_your_browser) or [React DevTools](https://react.dev/learn/react-developer-tools)). It is a browser extension that enables developers to inspect, debug, modify, and manipulate the state of Ethereum: accounts, blocks, contracts & the node itself. Ribbit is also compatible with any production dApp, meaning you can simulate any type of action from either an Account attached on the Anvil instance, or by "impersonating" another Account on the network.
 
-Rivet is aimed to be **contributor first & friendly**. If you would like to contribute, check out the [Contributing Guide](/.github/CONTRIBUTING.md) and [good first issues](https://github.com/paradigmxyz/rivet/labels/good%20first%20issue).
+By integrating [EIP-6963: Multi Injected Provider Discovery](https://eips.ethereum.org/EIPS/eip-6963), Ribbit is designed to be used alongside and with other consumer browser wallets like MetaMask or Rainbow to provide more engrained developer tooling and workflows for Ethereum.
 
-![screenshots](https://github.com/paradigmxyz/rivet/assets/7336481/7eb57ff3-1f47-486d-b433-6a3346ac3e4b)
+Ribbit is aimed to be **contributor first & friendly**. If you would like to contribute, check out the [Contributing Guide](/.github/CONTRIBUTING.md).
 
 ## Download
 
-- **Chromium (Chrome, Brave, Arc, etc)**: [Chrome Web Store](https://chrome.google.com/webstore/detail/rivet/mobmnpcacgadhkjfelhpemphmmnggnod)
+- **Chromium (Chrome, Brave, Arc, etc)** [TBD]
 - **Firefox**: coming soon
 - **Safari**: coming soon
 
 ### Nightly Release
 
-Rivet is currently in active development. If you would like to try out the latest features, you can download the latest nightly build below:
+Ribbit is currently in active development. If you would like to try out the latest features, you can download the latest nightly build below:
 
-- **Chromium (Chrome, Brave, Arc, etc)**: [Download](https://github.com/paradigmxyz/rivet/releases/latest)
+- **Chromium (Chrome, Brave, Arc, etc)**: [Download](https://github.com/sideris/ribbit/releases/latest)
 
 <details>
   <summary>Setup Instructions</summary>
@@ -45,8 +45,8 @@ Rivet is currently in active development. If you would like to try out the lates
     <li>Enable <code>Developer Mode</code> in the top right corner</li>
     <li>Click <code>Load Unpacked</code> in the top left corner</li>
     <li>Select the unzipped folder</li>
-    <li>Done! You should now see the Rivet extension in your browser</li>
-  <ol>
+    <li>Done! You should now see the Ribbit extension in your browser</li>
+  </ol>
 </details>
 
 ## Features
@@ -109,7 +109,7 @@ git clone https://github.com/paradigmxyz/rivet.git
 
 ### 2. Install Bun
 
-Rivet uses [Bun](https://bun.sh). You need to install **Bun v1 or higher**.
+Ribbit uses [Bun](https://bun.sh). You need to install **Bun v1 or higher**.
 
 You can run the following commands in your terminal to check your local Bun version:
 
@@ -117,7 +117,7 @@ You can run the following commands in your terminal to check your local Bun vers
 bun -v
 ```
 
-If the versions are not correct or you don't have Bun installed, download and follow their setup instructions:
+If the versions are not correct, or you don't have Bun installed, download and follow their setup instructions:
 
 - Install [Bun](https://bun.sh/docs/installation)
 
@@ -141,9 +141,9 @@ This will run a script that will build the Web Extension, start a dev server for
 
 ## Known Issues
 
-Rivet uses the `window.ethereum` interface, which means it has some known conflicts with other wallets which also rely on `window.ethereum`. Once Dapps start to integrate [EIP-6963](https://eips.ethereum.org/EIPS/eip-6963) to handle multiple injected wallets, this should not be a problem anymore.
+Ribbit uses the `window.ethereum` interface, which means it has some known conflicts with other wallets which also rely on `window.ethereum`. Once Dapps start to integrate [EIP-6963](https://eips.ethereum.org/EIPS/eip-6963) to handle multiple injected wallets, this should not be a problem anymore.
 
-For best results it is recommended to run Rivet in it's own Chrome profile, without any other conflicting browser wallets installed.
+For best results it is recommended to run Ribbit in its own Chrome profile, without any other conflicting browser wallets installed.
 
 Helpful note: A fresh Chrome profile gets instantiated when running the dev script: `bun run dev`.
 
@@ -151,7 +151,10 @@ Helpful note: A fresh Chrome profile gets instantiated when running the dev scri
 
 If you're interested in contributing, please read the [contributing docs](/.github/CONTRIBUTING.md) **before submitting a pull request**.
 
-## Authors
+## Ribbit Authors
+- [@sideris](https://github.com/sideris) (PGSideris, [Twitter](https://twitter.com/PGSideris))
+
+## Rivet Authors
 
 - [@jxom](https://github.com/jxom) (jxom.eth, [Twitter](https://twitter.com/_jxom))
 - [@tmm](https://github.com/tmm) (awkweb.eth, [Twitter](https://twitter.com/awkweb))

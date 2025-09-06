@@ -1,9 +1,9 @@
 {
-  "name": "rivet",
+  "name": "ribbit",
   "version": "0.0.14",
   "private": true,
   "extension": {
-    "name": "Rivet",
+    "name": "Ribbit",
     "description": "Developer Wallet & DevTools for Ethereum"
   },
   "scripts": {
