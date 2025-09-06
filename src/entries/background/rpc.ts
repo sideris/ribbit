@@ -48,7 +48,7 @@ export function setupRpcHandler({ messenger }: { messenger: Messenger }) {
         jsonrpc: '2.0',
         error: {
           code: UnsupportedProviderMethodError.code,
-          message: 'Rivet has not been onboarded.',
+          message: 'Ribbit has not been onboarded.',
         },
       } as RpcResponse
 

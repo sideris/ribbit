@@ -73,7 +73,7 @@ export default function OnboardingRun() {
           </Box>
         </Box>
         <Text color="text/secondary" size="14px">
-          When Rivet detects the Anvil instance is running, we will redirect
+          When Ribbit detects the Anvil instance is running, we will redirect
           you.
         </Text>
       </Stack>

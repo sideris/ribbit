@@ -6,7 +6,7 @@ export function setupContextMenu() {
   // TODO: Only create context menu if selected text is "openable" in Rivet.
   // chrome.contextMenus.create({
   //   id: 'open',
-  //   title: 'Open in Rivet',
+  //   title: 'Open in Ribbit',
   //   contexts: ['selection'],
   // })
 
