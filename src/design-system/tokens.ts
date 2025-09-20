@@ -130,6 +130,22 @@ export const backgroundColor = {
       },
     },
   },
+  'surface/fill/ribbit/active': {
+    light: {
+      value: '#55b350',
+      scheme: 'light',
+      hover: {
+        brightness: '0.98',
+      },
+    },
+    dark: {
+      value: '#046504',
+      scheme: 'dark',
+      hover: {
+        contrast: '0.95',
+      },
+    },
+  },
   'surface/fill/quarternary': {
     light: {
       value: '#f9f9f9',

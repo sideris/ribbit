@@ -1,0 +1,24 @@
+<svg width="256" height="256" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Smiling frog logo">
+  <!-- frog head silhouette -->
+  <path d="M15 56
+           C15 38 30 30 40 28
+           C52 20 56 22 60 28
+           C70 30 85 38 85 56
+           C85 80 65 88 50 88
+           C35 88 15 80 15 56 Z"
+        fill="#99ff55"/>
+
+  <!-- eyes -->
+  <circle cx="36" cy="42" r="8.5" fill="white"/>
+  <circle cx="64" cy="45" r="8.5" fill="white"/>
+    <circle cx="36" cy="42" r="4.5" fill="black"/>
+  <circle cx="64" cy="45" r="4.5" fill="black"/>
+
+  <!-- open smiling mouth -->
+  <path d="M30 65 Q50 90 66 65
+           Q50 78 34 Z"
+        fill="black"/>
+
+  <!-- tongue inside smile -->
+  <ellipse cx="50" cy="73" rx="7" ry="3" fill="#ff6666"/>
+</svg>

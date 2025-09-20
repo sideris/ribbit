@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to Rivet! Please take a moment to review this document **before submitting a pull request.** If you want to contribute, but aren't sure where to start, you can create a [new discussion](https://github.com/paradigmxyz/rivet/discussions).
+Thanks for your interest in contributing to Rivet! Please take a moment to review this document **before submitting a pull request.** If you want to contribute, but aren't sure where to start, you can create a [new discussion](https://github.com/sideris/ribbit/discussions).
 
 > **Note** **Please ask first before starting work on any significant new features.**
 >
@@ -110,13 +110,13 @@ This guide is intended to help you get started with contributing. By following t
 To start contributing to the project, clone it to your local machine using git:
 
 ```bash
-git clone https://github.com/paradigmxyz/rivet.git
+git clone https://github.com/sideris/ribbit.git
 ```
 
 Or the [GitHub CLI](https://cli.github.com):
 
 ```bash
-gh repo clone paradigmxyz/rivet
+gh repo clone sideris/ribbit
 ```
 
 <div align="right">
@@ -188,7 +188,7 @@ You can install the Web Extension separately in your browser. To do so, follow t
 1. Open your browser's Extensions page
 2. Enable "Developer mode" in the top right corner
 3. Click "Load unpacked" in the top left corner
-4. Select the `dist/dev` folder in Rivet's root directory
+4. Select the `dist/dev` folder in Ribbit's root directory
 5. You're good to go! Don't forget to pin the Extension to your browser's toolbar for easy access. 🎉
 
 <div align="right">
@@ -213,7 +213,7 @@ When you submit a pull request, GitHub will automatically lint, build, and test 
 ---
 
 <div align="center">
-  ✅ Now you're ready to contribute to Rivet!
+  ✅ Now you're ready to contribute to Ribbit!
 </div>
 
 ---
